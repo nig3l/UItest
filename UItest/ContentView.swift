@@ -9,10 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Nigel beast")
-            .multilineTextAlignment(.trailing)
-            .padding(20)
-            .background(Color.blue)
+        
+        VStack{  //accepts only upto 10 stacks
+            Image("logo").resizable().aspectRatio(contentMode: .fit)
+            
+            Text("Unleash the dogs of war")
+        }
+       
     }
 }
 
