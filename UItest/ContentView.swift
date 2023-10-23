@@ -9,7 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Nigel beast").padding(20)
+        Text("Nigel beast")
+            .multilineTextAlignment(.trailing)
+            .padding(20)
             .background(Color.blue)
     }
 }
